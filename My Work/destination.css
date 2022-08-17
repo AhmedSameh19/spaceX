@@ -175,10 +175,12 @@ body{
     .PlanetImg{
         text-align: center;
         margin-top: 25px;
+        
     }
-    .planet .BigBox .planetsList{
+    .planet .BigBox .planetsList ul{
         text-align: center;
         margin-top: 20px;
+        margin-right: 0;
     }
     .planet .BigBox h1{
         text-align: center;
@@ -188,7 +190,7 @@ body{
         text-align: center;
     }
     
-    .planet .planetsList ul{
+    .planet .planetsList .info ul{
         justify-content: center;
         margin-right: 0;
        
@@ -227,11 +229,16 @@ body{
         margin-left: 0;
         align-self: center;
     }
+    .planet .planetsList ul{
+        margin-top: -25px;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
     .PlanetImg{
         text-align: center;
         margin-top: 10px;
     }
-    .planet .BigBox .planetsList{
+    .planet .BigBox .planetsList {
         text-align: center;
         margin-top: 8px;
     }
@@ -239,19 +246,26 @@ body{
         text-align: center;
         margin-bottom: 25px;
         font-size: 40px;
+        margin-top: 10px;
     }
     .planet .BigBox p{
         font-size: 15px;
     }
     .planet .BigBox .info{
         text-align: center;
+        margin-top: 20px;
+        justify-content: space-around;
     }
     
-    .planet .planetsList ul{
+    .planet .planetsList .info ul{
         justify-content: center;
         margin-right: 0;
         margin-left: -10px;
         margin-top: -25px;
+    }
+    .planet .BigBox .info ul li.maininfo{
+        margin-top: -10px;
+        justify-content: space-around;
     }
 }
 /* end media  */
