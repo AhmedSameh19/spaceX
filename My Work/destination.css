@@ -191,6 +191,7 @@ body{
     .planet .planetsList ul{
         justify-content: center;
         margin-right: 0;
+        margin-top: -25px;
     }
 }
 @media (max-width:520px){
@@ -222,21 +223,25 @@ body{
     .PlanetImg img{
         width: 200px;
         height: 200px;
-        margin-top: 15px;
+        margin-top: 10px;
         margin-left: 0;
         align-self: center;
     }
     .PlanetImg{
         text-align: center;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     .planet .BigBox .planetsList{
         text-align: center;
-        margin-top: 15px;
+        margin-top: 8px;
     }
     .planet .BigBox h1{
         text-align: center;
         margin-bottom: 25px;
+        font-size: 40px;
+    }
+    .planet .BigBox p{
+        font-size: 15px;
     }
     .planet .BigBox .info{
         text-align: center;
