@@ -47,6 +47,3 @@ function rotate(){
         },100)
     }
 }
-document.getElementById("moon").addEventListener("click",function(){    
-    alert("FUCK YOU MISTER BADAWY 😘");
-})
