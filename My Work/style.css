@@ -363,7 +363,7 @@ start para */
     .container .header span{
         display: none;
     }
-    .hamburger {
+    .container .header .hamburger {
         align-self: center;
     }
    
