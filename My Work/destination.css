@@ -33,10 +33,19 @@ body{
     letter-spacing: 6.68px;
 }
 .PlanetImg img{
-    width: 350px;
-    height: 350px;
-    margin-top: 20px;
+    width: 315px;
+    height: 315px;
+    margin-top: 15px;
     margin-left: 20px;
+    animation: rotate 50s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .planet{
     display: flex;
@@ -189,9 +198,10 @@ body{
         background-image: url(../starter-code/assets/destination/background-destination-mobile.jpg);
     }
     .contain{
-        margin: auto;
-        margin-top: 65px;
+        margin: 0;
+        margin-top: 35px;
         display: flex;
+        padding: 0;
         flex-direction: column;
     }
     .planet{
@@ -201,30 +211,32 @@ body{
     }
     .contain .text p{
         text-align: center;
+        font-size: 16px;
     }
     .planet .BigBox{
         margin-left: 0;
-        margin-top: 45px;
+        margin-top: 30px;
+        width: 360px;
         text-align: center;
     }
     .PlanetImg img{
-        width: 250px;
-        height: 250px;
-        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+        margin-top: 15px;
         margin-left: 0;
         align-self: center;
     }
     .PlanetImg{
         text-align: center;
-        margin-top: 25px;
+        margin-top: 15px;
     }
     .planet .BigBox .planetsList{
         text-align: center;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .planet .BigBox h1{
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
     .planet .BigBox .info{
         text-align: center;
@@ -233,6 +245,7 @@ body{
     .planet .planetsList ul{
         justify-content: center;
         margin-right: 0;
+        margin-left: -10px;
     }
 }
 /* end media  */
