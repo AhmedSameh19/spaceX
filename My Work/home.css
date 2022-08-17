@@ -16,6 +16,7 @@ body{
 }
 :root{
     --text-color:white;
+    --p-color:rgb(208, 214, 249);
 }
 /* start container */
 /* .container{
@@ -111,7 +112,7 @@ body{
         margin-top: 50px;
         margin-right: 42px;
     }
-    li::after{
+    .container .header ul li::after{
         content: "";
         position:absolute;
         background-color:#8a8b90;
@@ -122,10 +123,10 @@ body{
         transition:0.3s;
 
     }
-    li:hover::after{
+    .container .header ul li:hover::after{
         width: calc(100% + 24px);
     }
-    li:active::after{
+    .container .header ul li:active::after{
         width: calc(100% + 24px);
         background-color: white;
     }
@@ -155,11 +156,13 @@ start para */
     font-size: 85px;
     font-family: 'Bellefair',serif;
     line-height: 32px;
+    color: var(--p-color);
 }
 .mom .intro .para{
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
     line-height: 28px;
+    color: var(--p-color)
     
 }
 .mom .circle{
