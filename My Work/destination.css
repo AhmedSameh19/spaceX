@@ -191,7 +191,7 @@ body{
     .planet .planetsList ul{
         justify-content: center;
         margin-right: 0;
-        margin-top: -25px;
+       
     }
 }
 @media (max-width:520px){
@@ -251,6 +251,7 @@ body{
         justify-content: center;
         margin-right: 0;
         margin-left: -10px;
+        margin-top: -25px;
     }
 }
 /* end media  */
