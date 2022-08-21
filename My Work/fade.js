@@ -1,15 +1,5 @@
-import highway from '@dogstudio/highway';
- import tween from 'gsap';
+import { Timeline } from "gsap/gsap-core"
 
- class fade extends highway.Transition{
-    in(from , to ,done){
-        from.remove();
-        tween.fromTo(to,0.5,{opacity:0},{opacity:1 , onComplete:done})
-
-    }
-    out(from , done ){
-        tween.fromTo(to,0.5,{opacity:1},{opacity:0 , onComplete:done})
-    }
- }
-
- export default fade;
+const img= document.getElementById("moon")
+var t1=new Timeline();
+t1.fromTo(img,1,{y:"-100%"},{y:"0%", ease:"power3.inOut"})

@@ -223,8 +223,8 @@ body{
         text-align: center;
     }
     .PlanetImg img{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin-top: 10px;
         margin-left: 0;
         align-self: center;
@@ -255,6 +255,7 @@ body{
         text-align: center;
         margin-top: 20px;
         justify-content: space-around;
+        flex-direction: column;
     }
     
     .planet .planetsList .info ul{
@@ -267,5 +268,6 @@ body{
         margin-top: -10px;
         justify-content: space-around;
     }
+    
 }
 /* end media  */

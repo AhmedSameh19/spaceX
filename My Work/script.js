@@ -1,10 +1,15 @@
-// import highway, { Transition } from '@dogstudio/highway';
-// import fade from "./fade.js"
-// const H=new Highway.Core({
-//         transitions:{
-//             default: Fade
-//         }
-//     });
+import gsap from "./gsap-core.js";
+import { Timeline } from "gsap/gsap-core"
+export { TweenLite, TimelineMax, TimelineLite, Power0, Power1, Power2, Power3, Power4, Linear, Quad, Cubic, Quart, Quint, Strong, Elastic, Back, SteppedEase, Bounce, Sine, Expo, Circ, wrap, wrapYoyo, distribute, random, snap, normalize, getUnit, clamp, splitColor, toArray, mapRange, pipe, unitize, interpolate, shuffle, selector } from "./gsap-core.js";
+const img= document.getElementsByTagName("H1")
+var t1=new gsap.Timeline({defaults:{duration:2 , ease:"power3.inOut"}});
+t1.fromTo(img,{opacity:'0'},{opacity:'1'})
+
+
+
+
+
+
 document.getElementById("ham").addEventListener("click",function(){
     
     document.getElementById("ham").style.display="none";
@@ -21,29 +26,3 @@ document.getElementById("close").addEventListener("click",function(){
     document.getElementById("list").style.display="none";
     document.getElementById("close").style.display="none";
 })
-// var id =null;
-// elem.style.marginLeft=-90000+'px';
-// function myMove() {
-//     var elem = document.getElementById("moon");
-//     var pos = 0;
-//     clearInterval(id);
-//     id = setInterval(frame, 20);
-//     function frame() {
-//       if (pos == 20) {
-//         clearInterval(id);
-//       } else {
-//         pos++;
-//         elem.style.marginLeft = pos + 'px';
-//       }
-//     }
-//   }
-var z=document.querySelector("#moon");
-function rotate(){
-    while(true)
-    {
-        setInterval(function(){
-            z.style.WebkitTransitionDuration="1s";
-            z.style.webkitTransform = 'rotate(360deg)';
-        },100)
-    }
-}
