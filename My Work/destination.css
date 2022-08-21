@@ -37,16 +37,16 @@ body{
     height: 315px;
     margin-top: 15px;
     margin-left: 20px;
-    animation: rotate 50s linear infinite;
+    /* animation: rotate 50s linear infinite; */
 }
-@keyframes rotate{
+/* @keyframes rotate{
     from{
         transform: rotate(0deg);
     }
     to{
         transform: rotate(360deg);
     }
-}
+} */
 .planet{
     display: flex;
    flex-direction: row;
@@ -223,8 +223,8 @@ body{
         text-align: center;
     }
     .PlanetImg img{
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
         margin-top: 10px;
         margin-left: 0;
         align-self: center;
@@ -245,7 +245,7 @@ body{
     .planet .BigBox h1{
         text-align: center;
         margin-bottom: 25px;
-        font-size: 40px;
+        font-size: 35px;
         margin-top: 10px;
     }
     .planet .BigBox p{
