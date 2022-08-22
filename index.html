@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./My Work/normaliz.css" type="text/css">
     <link rel="stylesheet" href="./My Work/home.css" type="text/css">
-    
+    <link rel="stylesheet" href="./WOW-master/css/libs/animate.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-32x32.png">
 
     <title>SpaceX</title>
 </head>
-<body>
+<body class="wow fadeInUpBig">
     <!-- start header -->
     <div class="container" id="HOME">
         <div class="header">
@@ -45,7 +45,7 @@
     <div class="mom"  >
         <div class="intro">
             <p class="title">SO, YOU WANT TO TRAVEL TO</p>
-            <h1>SPACE</h1>
+            <h1 class="wow fadeInLeft" data-wow-delay="1.2s">SPACE</h1>
             <p class="para">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
         </div>
         <div class="circle">
@@ -54,8 +54,10 @@
     </div>
     
     <!-- end para -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./WOW-master/dist/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <script src="./My Work/script.js">
     </script>
     
