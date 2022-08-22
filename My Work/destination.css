@@ -215,6 +215,7 @@ body{
     .contain .text p{
         text-align: center;
         font-size: 16px;
+        margin-top: -10px;
     }
     .planet .BigBox{
         margin-left: 0;
@@ -225,7 +226,7 @@ body{
     .PlanetImg img{
         width: 130px;
         height: 130px;
-        margin-top: 10px;
+        margin-top: 0;
         margin-left: 0;
         align-self: center;
     }
