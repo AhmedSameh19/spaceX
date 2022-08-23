@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("../starter-code/assets/crew/background-crew-desktop.jpg");
+    background-size: cover;
+    
+ 
+}
+:root{
+    --text-color:white;
+    --p-color:rgb(208, 214, 249);
+}
+.contain{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+.contain .data{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    
+
+}
+.contain .data .CrewInfo{
+    width:465px;
+    height: 300px;
+}
+.contain .data .CrewInfo .title{
+    color: var(--text-color);
+    font-size: 32px;
+    font-family:'Bellefair', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+.contain .data .CrewInfo h1{
+    color: var(--text-color);
+    font-size: 40px;
+    font-family:'Bellefair', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.contain .data .CrewInfo p{
+    color: var(--p-color);
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    line-height: 30px;
+    /* margin-top: 0;    */
+}
+.data .CrewImg{
+    /* width: 400px; */
+    height: 300px;
+    
+    position: absolute;
+    right: 120px;
+    /* top: 0; */
+    bottom: 180px;
+    
+}
+.data .CrewImg img{
+    height: 475px;
+}
+.data .picker{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 40px;
+}
+.data .picker span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #35363f;
+    margin-right:15px ;
+    position: relative;
+}
+.data .picker span a{
+    text-align: center;
+    color: transparent;
+    position: absolute;
+    top: 0;
+    left: 7px;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    
+    
+
+
+}

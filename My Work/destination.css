@@ -256,7 +256,7 @@ body{
         text-align: center;
         margin-top: 20px;
         justify-content: space-around;
-        flex-direction: column;
+        
     }
     
     .planet .planetsList .info ul{

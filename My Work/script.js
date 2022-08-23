@@ -11,3 +11,24 @@ document.getElementById("close").addEventListener("click",function(){
     document.getElementById("list").style.display="none";
     document.getElementById("close").style.display="none";
 })
+console.log()
+var path = window. location. pathname;
+var page = path. split("/"). pop();
+console. log( page.charAt(4));
+function turned(){
+    if(page.charAt(4)==1){
+        document.getElementById("one").style.backgroundColor="white";
+    }
+    if(page.charAt(4)==2){
+        document.getElementById("two").style.backgroundColor="white";
+    }
+    if(page.charAt(4)==3){
+        document.getElementById("three").style.backgroundColor="white";
+    }
+    if(page.charAt(4)==4){
+        document.getElementById("four").style.backgroundColor="white";
+    }
+}
+
+
+
