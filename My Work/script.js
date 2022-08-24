@@ -13,8 +13,9 @@ document.getElementById("close").addEventListener("click",function(){
 })
 console.log()
 var path = window. location. pathname;
+//console.log(path)
 var page = path. split("/"). pop();
-console. log( page.charAt(4));
+//console. log( page.charAt(4));
 function turned(){
     if(page.charAt(4)==1){
         document.getElementById("one").style.backgroundColor="white";
@@ -34,6 +35,35 @@ function turned(){
 // {
 //     document.getElementById("crew").style.color="black";
 // }
+var startingX , movingX
+function touchstart(event){
+    startingX=event.touches[0].clientX;
+}
+function touchmove(event){
+    movingX=event.touches[0].clientX;
 
+}
+function touchend(){
+    if (startingX+100<movingX){//left
+        if(page.charAt(4)==1)
+
+        window.location="../my htmls/crew4.html"
+        else{
+            var x=page.charAt(4)-1;
+            window.location=`../my htmls/crew${x}.html`;
+        }
+    }
+    else{//right
+        if(page.charAt(4)==4){
+            window.location="../my htmls/crew1.html"
+        }
+        else{
+            var y=1+parseInt(page.charAt(4));
+            
+            window.location=`../my htmls/crew${y}.html`  
+        }
+          }
+          
+}
 
 
