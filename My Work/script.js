@@ -34,7 +34,7 @@ function turned(){
 }
 // {
 //     document.getElementById("crew").style.color="black";
-// }
+
 var startingX , movingX
 function touchstart(event){
     startingX=event.touches[0].clientX;
@@ -53,7 +53,7 @@ function touchend(){
             window.location=`../my htmls/crew${x}.html`;
         }
     }
-    else{//right
+    else if(startingX-100>movingX){//right
         if(page.charAt(4)==4){
             window.location="../my htmls/crew1.html"
         }
@@ -66,4 +66,4 @@ function touchend(){
           
 }
 
-
+                           
