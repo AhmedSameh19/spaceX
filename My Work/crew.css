@@ -128,10 +128,11 @@ body{
     .contain .data .CrewInfo p{
         font-size: 15px;
         text-align: center;
+        margin-top: -5px;
     }
     .data .picker{
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 25px;
     }
     .data .CrewImg img{
         width: 177px;
