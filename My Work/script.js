@@ -18,6 +18,8 @@ console. log( page.charAt(4));
 function turned(){
     if(page.charAt(4)==1){
         document.getElementById("one").style.backgroundColor="white";
+        document.getElementById("aloo").style.marginLeft = "20px";
+
     }
     if(page.charAt(4)==2){
         document.getElementById("two").style.backgroundColor="white";
