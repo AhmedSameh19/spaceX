@@ -127,7 +127,7 @@ body{
         width: calc(100% + 24px);
     }
     .container .header ul li:active::after{
-        width: calc(100% + 24px);
+        /* width: calc(100% + 24px); */
         background-color: white;
     }
 

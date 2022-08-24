@@ -29,6 +29,9 @@ function turned(){
         document.getElementById("four").style.backgroundColor="white";
     }
 }
+// {
+//     document.getElementById("crew").style.color="black";
+// }
 
 
 

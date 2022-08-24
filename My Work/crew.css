@@ -60,12 +60,9 @@ body{
     /* margin-top: 0;    */
 }
 .data .CrewImg{
-    /* width: 400px; */
     height: 300px;
-    
     position: absolute;
-    right: 120px;
-    /* top: 0; */
+    right: 120px; 
     bottom: 180px;
     
 }
@@ -95,8 +92,64 @@ body{
     left: 7px;
     z-index: 100;
     transform: translate(-50%, -50%);
-    
-    
-
+}
+/* start media  */
+@media (max-width:520px){
+    body{
+        background-image: url(../starter-code/assets/crew/background-crew-mobile.jpg);
+        position: relative;
+    }
+    .contain{
+        margin: 0;
+        margin-top: 35px;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+    .contain .data .CrewInfo{
+        width:327px;
+        height: 207px;
+    }
+    .contain .data{
+        flex-direction: column;
+        margin-left: 32px;
+        
+        margin-top: 300px;
+    }
+    .contain .data .CrewInfo .title{
+        text-align: center;
+        font-size: 16px;
+    }
+    .contain .data .CrewInfo h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    .contain .data .CrewInfo p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .data .picker{
+        justify-content: center;
+    }
+    .data .CrewImg img{
+        width: 177px;
+        height: 222px;
+        /* position: absolute;
+        top: 163px;
+        left: -200px;
+         */
+    }
+    .data .CrewImg{
+        /* position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(-50%, -50%); */
+        left: 0;
+        /* left: 50%; */
+        transform: translateX(100px);
+        /* margin-left: 20px; */
+    }
 
 }
+
+/* end media  */
