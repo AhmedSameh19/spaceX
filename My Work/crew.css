@@ -104,6 +104,7 @@ body{
         display: flex;
         padding: 0;
         flex-direction: column;
+        position: relative;
     }
     .contain .data .CrewInfo{
         width:327px;
@@ -136,11 +137,11 @@ body{
     .data .CrewImg img{
         width: 177px;
         height: 222px;
-        margin-top: -1000px;
+        
+        
     }
     .data .CrewImg{
-        left: 0;
-        transform: translateX(100px);
+        right: 90px;
     }
 
 }
