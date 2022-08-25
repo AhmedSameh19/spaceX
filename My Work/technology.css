@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("../starter-code/assets/technology/background-technology-desktop.jpg");
+    background-size: cover;
+    
+ 
+}
+:root{
+    --text-color:white;
+    --p-color:rgb(208, 214, 249);
+}
+.contain{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-right: 40px;
+}

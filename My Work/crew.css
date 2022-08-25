@@ -97,7 +97,6 @@ body{
 @media (max-width:520px){
     body{
         background-image: url(../starter-code/assets/crew/background-crew-mobile.jpg);
-        position: relative;
     }
     .contain{
         margin: 0;
@@ -114,7 +113,7 @@ body{
         flex-direction: column;
         margin-left: 32px;
         
-        margin-top: 300px;
+        margin-top: 285px;
     }
     .contain .data .CrewInfo .title{
         text-align: center;
@@ -137,6 +136,7 @@ body{
     .data .CrewImg img{
         width: 177px;
         height: 222px;
+        margin-top: -1000px;
     }
     .data .CrewImg{
         left: 0;
