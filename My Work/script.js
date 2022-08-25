@@ -24,15 +24,15 @@ function turned(){
     }
     if(page.charAt(4)==2){
         document.getElementById("two").style.backgroundColor="white";
-        document.getElementById("aloo").style.right="110px"
+        // document.getElementById("aloo").style.right="110px"
     }
     if(page.charAt(4)==3){
         document.getElementById("three").style.backgroundColor="white";
-        document.getElementById("aloo").style.right="110px"
+        // document.getElementById("aloo").style.right="110px"
     }
     if(page.charAt(4)==4){
         document.getElementById("four").style.backgroundColor="white";
-        document.getElementById("aloo").style.right="110px"
+        // document.getElementById("aloo").style.right="110px"
     }
 }
 // {

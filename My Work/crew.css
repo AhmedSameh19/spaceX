@@ -32,6 +32,11 @@ body{
     
 
 }
+.contain .content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
 .contain .data .CrewInfo{
     width:465px;
     height: 300px;
@@ -59,14 +64,14 @@ body{
     line-height: 30px;
     /* margin-top: 0;    */
 }
-.data .CrewImg{
+.content .CrewImg{
     height: 300px;
     position: absolute;
     right: 120px; 
     bottom: 180px;
     
 }
-.data .CrewImg img{
+.content .CrewImg img{
     height: 475px;
 }
 .data .picker{
@@ -106,15 +111,21 @@ body{
         flex-direction: column;
         position: relative;
     }
+    .contain .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
     .contain .data .CrewInfo{
         width:327px;
         height: 207px;
     }
     .contain .data{
         flex-direction: column;
-        margin-left: 32px;
+        /* margin-left: 32px; */
         
-        margin-top: 285px;
+        /* margin-top: 285px; */
     }
     .contain .data .CrewInfo .title{
         text-align: center;
@@ -134,14 +145,22 @@ body{
         justify-content: center;
         margin-top: 25px;
     }
-    .data .CrewImg img{
+    .content .CrewImg img{
         width: 177px;
         height: 222px;
+        /* display: flex;
+        justify-content: center; */
         
         
     }
-    .data .CrewImg{
-        right: 90px;
+    .content .CrewImg{
+        
+    align-items: center;
+    position: unset;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
     }
 
 }
