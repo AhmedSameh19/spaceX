@@ -146,7 +146,7 @@ body{
         margin-top: 25px;
     }
     .content .CrewImg img{
-        width: 177px;
+        /* width: 200px; */
         height: 222px;
         /* display: flex;
         justify-content: center; */
