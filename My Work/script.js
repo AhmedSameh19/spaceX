@@ -15,20 +15,39 @@ console.log()
 var path = window. location. pathname;
 //console.log(path)
 var page = path. split("/"). pop();
-//console. log( page.charAt(4));
+console. log( typeof(parseInt((page.charAt(4)))));
 function turned(){
-    if(page.charAt(4)==1){
-        document.getElementById("one").style.backgroundColor="white";
+    if(page.charAt(4)==1 || page.charAt(10)==1){
+        if(page.charAt(4)==="1"){
+            document.getElementById("one").style.backgroundColor="white";
+
+        }
+        else{
+            document.getElementById("oneD").style.backgroundColor="white";
+            document.getElementById("link1").style.color="black";
+        }
         
 
     }
-    if(page.charAt(4)==2){
-        document.getElementById("two").style.backgroundColor="white";
-        // document.getElementById("aloo").style.right="110px"
+    if(page.charAt(4)==2 || page.charAt(10)==2){
+        if(page.charAt(4)==="2"){
+            document.getElementById("two").style.backgroundColor="white";
+        }
+        else{
+            document.getElementById("twoD").style.backgroundColor="white";
+            document.getElementById("link2").style.color="black";
+        }
+        
     }
-    if(page.charAt(4)==3){
-        document.getElementById("three").style.backgroundColor="white";
-        // document.getElementById("aloo").style.right="110px"
+    if(page.charAt(4)==3 || page.charAt(10)==3){
+        if(page.charAt(4)==="3"){
+            document.getElementById("three").style.backgroundColor="white";
+        }
+        else{
+            document.getElementById("threeD").style.backgroundColor="white";
+            document.getElementById("link3").style.color="black";
+        }
+        
     }
     if(page.charAt(4)==4){
         document.getElementById("four").style.backgroundColor="white";

@@ -25,3 +25,140 @@ body{
     margin-top: 60px;
     margin-right: 40px;
 }
+.contain .all{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.contain .all .techno
+{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    width: 563px;
+    height: 300px;
+
+}
+.contain .all .techno .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.contain .all .techno .list span{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border:1px solid white;
+    color: white;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+}
+.contain .all .techno .list span a{
+    color: white;
+    text-decoration: none;
+    font-family:'Bellefair', serif ;
+}
+.contain .all .techno .data{
+    margin-left: 70px;
+    z-index: 200;
+}
+.contain .all .techno .data .title{
+    font-size: 16px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--p-color);
+    letter-spacing: 4.6px;
+}
+.contain .all .techno .data h1{
+    font-family: 'Bellefair', serif;
+    font-size: 48px;
+    color: white;
+
+}
+.contain .all .techno .data p{
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 32px;
+    color: var(--p-color);
+}
+.contain .all .techno-img img{
+    width: 370px;
+    height: 420px;
+    
+}
+.contain .all .techno-img.desktop{
+    margin-top: -30px;
+    position: absolute;
+    right: 0;
+}
+.contain .all .techno-img.mobile{
+    display: none;
+}
+/* start media  */
+@media (max-width:520px){
+    body{
+        background-color: url(../starter-code/assets/technology/background-technology-mobile.jpg);
+    }
+    .contain{
+        margin: auto;
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contain .all{
+        flex-direction: column-reverse;
+    }
+    .contain .all .techno{
+        flex-direction: column;
+        width: 370px;
+    }
+    .contain .all .techno .data{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .contain .all .techno .list{
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .contain .all .techno .list span{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    .contain .all .techno-img.mobile{
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .contain .all .techno-img.desktop{
+        display: none;
+        
+    }
+    .contain .all .techno-img img{
+        width:100%;
+        height: 150px;
+    }
+    .contain .all .techno .data .title{
+        text-align: center;
+        font-size: 16px;
+        
+    }
+    .contain .all .techno .data h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    .contain .all .techno .data  p{
+        font-size: 15px;
+        text-align: center;
+        
+    }
+
+}
+/* end media  */
