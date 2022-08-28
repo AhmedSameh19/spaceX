@@ -105,10 +105,13 @@ body{
         background-color: url(../starter-code/assets/technology/background-technology-mobile.jpg);
     }
     .contain{
-        margin: auto;
-        margin-top: 65px;
-        display: flex;
-        flex-direction: column;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 35px;
+    padding: 0;
+    align-items: center;
     }
     .contain .all{
         flex-direction: column-reverse;
@@ -119,11 +122,12 @@ body{
     }
     .contain .all .techno .data{
         margin-left: 0;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .contain .all .techno .list{
         flex-direction: row;
         justify-content: center;
+        margin-top: -15px;
         
     }
     .contain .all .techno .list span{
