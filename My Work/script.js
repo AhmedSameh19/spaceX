@@ -40,7 +40,7 @@ function turned(){
         
     }
     if(page.charAt(4)==3 || page.charAt(10)==3){
-        if(page.charAt(4)==="1"){
+        if(page.charAt(4)==="3"){
             document.getElementById("three").style.backgroundColor="white";
         }
         else{
