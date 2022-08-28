@@ -87,5 +87,26 @@ function touchend(){
           }
           
 }
+function technologyMotion(){
+    if (startingX+100<movingX){//left
+        if(page.charAt(10)==1)
+
+        window.location="../my htmls/technology3.html"
+        else{
+            var x=page.charAt(10)-1;
+            window.location=`../my htmls/technology${x}.html`;
+        }
+    }
+    else if(startingX-100>movingX){//right
+        if(page.charAt(10)==3){
+            window.location="../my htmls/technology1.html"
+        }
+        else{
+            var y=1+parseInt(page.charAt(10));
+            
+            window.location=`../my htmls/technology${y}.html`  
+        }
+          }
+}
 
                            

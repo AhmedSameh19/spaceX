@@ -15,7 +15,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./starter-code/assets/favicon-32x32.png">
     <title>SpaceX|Technology</title>
 </head>
-<body onload="turned()"  class="wow bounceInDown">
+<body onload="turned()"  class="wow bounceInDown" ontouchstart="touchstart(event)"
+ontouchmove="touchmove(event)"
+ontouchend="technologyMotion()">
      <!-- start header -->
      <div class="container" id="HOME">
         <div class="header">
